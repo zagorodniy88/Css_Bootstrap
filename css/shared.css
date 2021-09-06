@@ -127,6 +127,10 @@ section {
     background-color: #f3f3f3;
 }
 
+.heading-padding{
+    text-align: center;
+}
+
 .contacts {
     width: 60%;
     padding: 10px;
@@ -137,6 +141,7 @@ section {
 }
 
 .contacts form {
+    display: inline-block;
     font-size: 15px;
     outline: none;
     font-weight: 600;
@@ -144,15 +149,18 @@ section {
     padding: 12px, 12px;
     width: 70%;
     border: 1px solid #808080;
-    margin: 2% auto;
+    margin: 0 auto;
     border-radius: 7px;
     background: rgba(227,222,222);
     box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.3);
     font-family: 'Raleway', sans-serif;
 }
 
+
+
+
 .contacts input[type="text"] {
-  
+
     font-size: 15px;
     outline: none;
     font-weight: 600;
@@ -174,6 +182,10 @@ section {
     box-shadow: 0 0 18px rgba(100, 65, 0, .8);
 }
 
+input{
+    margin-top: 5px;
+}
+
 .submit input[type="submit"] {
     color: rgba(225,225,225);
     cursor: pointer;
@@ -182,14 +194,15 @@ section {
     outline: none;
     text-align: center;
     font-family: 'Raleway', sans-serif;
-    margin: 0px 3%;
     padding: 7px 0px;
-    width: 25%;
+    width: 100%;
     font-size: 18px;
     transition: border-color 0.3s color 0.3s background-color 0.3s;
     border-radius: 7px;
     background-color: #797a7b;
     box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+
 }
 
 .submit input[type="submit"]:hover {
